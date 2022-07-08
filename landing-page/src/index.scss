@@ -1,0 +1,59 @@
+
+
+
+
+.wrapper {
+    margin: 350px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+
+  .main {
+    width: 809px;
+    height: 456px;
+
+    background: #ffdada;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        img{
+            padding-top: 24px;
+            padding-left: 37px;
+            height: 31px;
+        }
+        .menu{
+            display: flex;
+            margin-top: 24px;
+            
+            margin-right: 63px;
+            li{
+                list-style-type: none;
+                text-indent: 30px;
+                cursor: pointer;
+            }
+        }
+    }
+    .center{
+        padding: 90px 419px 222px 60px;
+           
+            h1{
+                font-size: 47px;
+            }
+            span{
+                color:red;
+            }
+            
+    }
+    .name{
+        font-weight: 500;
+        color: rgba(61, 61, 61, 1);
+        padding: 21px 434px 171px 61px;
+        width: 314px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+  }
+  
+}
