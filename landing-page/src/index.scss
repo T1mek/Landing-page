@@ -29,16 +29,22 @@ font-size: 11px;
             margin-right: 63px;
             li{
                 list-style-type: none;
-                text-indent: 30px;
+                text-indent: 41px;
                 cursor: pointer;
             }
         }
     }
     .center{
-        padding: 90px 419px 222px 60px;
+        display: flex;
+        
+        padding: 59px 229px 222px 60px;
            
+        .z{
+            width: 350px;
+        }
             h1{
                 font-size: 47px;
+                
             }
             span{
                 color:red;
@@ -49,15 +55,24 @@ font-size: 11px;
             color: rgba(61, 61, 61, 1);
             padding:0;
             padding-right: 434px;
+            margin-top: 21px;
             width: 314px;
             height: 30px;
             font-size: 14px;
             
             
         }
+        .k {
+            margin: 6px;
+            img{
+                padding-left: 60px;
+            }
+        }
         .footer{
             display: flex;
             justify-content: space-between;
+            margin-top: 30px;
+            padding-right: 60px;
             .b1{
                 background-color: rgba(255, 0, 0, 1);
                 
@@ -65,9 +80,17 @@ font-size: 11px;
                 height: 35px;
                 border-radius: 15px;
                 border: 0px;
+                cursor: pointer;
                 span{
                     color: white;
                 }
+            }
+            .b2{
+                border-radius: 15px;
+                cursor: pointer;
+                background-color: rgb(230, 188, 188,0);
+                width: 117px;
+                height: 35px;
             }
         }
     }
